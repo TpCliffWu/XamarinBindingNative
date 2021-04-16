@@ -1,0 +1,3 @@
+include ':magictoollibrary'
+include ':app'
+rootProject.name = "AarSample"

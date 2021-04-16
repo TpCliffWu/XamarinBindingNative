@@ -1,0 +1,6 @@
+C:\Projects\BindiOS\XamarinSample\MagicTool.iOS\bin\Debug\NativeLibrary.dll
+C:\Projects\BindiOS\XamarinSample\MagicTool.iOS\bin\Debug\NativeLibrary.pdb
+C:\Projects\BindiOS\XamarinSample\MagicTool.iOS\obj\Debug\MagicTool.iOS.csprojAssemblyReference.cache
+C:\Projects\BindiOS\XamarinSample\MagicTool.iOS\obj\Debug\MagicTool.iOS.csproj.CoreCompileInputs.cache
+C:\Projects\BindiOS\XamarinSample\MagicTool.iOS\obj\Debug\NativeLibrary.dll
+C:\Projects\BindiOS\XamarinSample\MagicTool.iOS\obj\Debug\NativeLibrary.pdb

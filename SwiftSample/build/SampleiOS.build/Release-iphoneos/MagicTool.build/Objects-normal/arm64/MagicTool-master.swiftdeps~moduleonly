@@ -1,0 +1,5 @@
+version: "Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)"
+options: "00d6670a9727f98ce52f20ecdad96795"
+build_time: [1618368028, 769247000]
+inputs:
+  "/Users/tpinfo/Documents/BindiOS/SwiftSample/MagicTool/MagicTool.swift": [9223372036, 854775807]

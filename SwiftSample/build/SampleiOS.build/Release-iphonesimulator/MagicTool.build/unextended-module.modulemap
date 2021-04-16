@@ -1,0 +1,10 @@
+framework module MagicTool {
+  umbrella header "MagicTool.h"
+
+  export *
+  module * { export * }
+}
+
+module MagicTool.__Swift {
+    exclude header "MagicTool-Swift.h"
+}
