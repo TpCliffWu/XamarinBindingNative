@@ -39,17 +39,20 @@ public class FirstFragment extends Fragment {
 
 
         int[] intArray = {1, 2, 3, 4, 5};
-        int sum = 0;
-        for (int i : intArray) {
-            sum += i;
-        }
+//        int sum = 0;
+//        for (int i : intArray) {
+//            sum += i;
+//        }
+        int sum =magic.MathIntAdditionWithIntArray(intArray);
 
         sumText = (TextView) root.findViewById(R.id.textview_first_2);
         sumText.setText(String.valueOf(sum));
 
 
-        byte[] bdata = str.getBytes(StandardCharsets.UTF_8);
-        String b64 = Base64.encodeToString(bdata, Base64.DEFAULT);
+//        byte[] bdata = str.getBytes(StandardCharsets.UTF_8);
+//        String b64 = Base64.encodeToString(bdata, Base64.DEFAULT);
+
+        String b64 =magic.StringToBase64WithStr(str);
 
         base64Text = (TextView) root.findViewById(R.id.textview_first_3);
         base64Text.setText(b64);

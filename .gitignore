@@ -5,10 +5,15 @@ XamarinSample/BindingNative.iOS/obj
 XamarinSample/BindingNative.iOS/bin
 XamarinSample/BindingNative.Android/bin
 XamarinSample/BindingNative.Android/obj
+XamarinSample/MagicTool.Android/bin
 XamarinSample/MagicTool.Android/obj
+XamarinSample/MagicTool.iOS/obj
+XamarinSample/MagicTool.iOS/bin
 XamarinSample/BindingNative/bin
 XamarinSample/BindingNative/obj
 XamarinSample/MagicTool/bin
 XamarinSample/MagicTool/obj
 XamarinSample/.vs
+NativeAndroid/magictoollibrary-release/build
+
 
