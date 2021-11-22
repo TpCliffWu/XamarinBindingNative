@@ -13,13 +13,6 @@ namespace BindingNative.iOS
         {
             mg = new MagicTool();
         }
-
-
-        public string OfflineBarcode(string guid, string cvc, string walletId)
-        {
-            return mg.OfflineBarcodeWithGuid(guid, cvc, walletId);
-        }
-
         public string GeneratePublicKey(string guid)
         {
             return mg.GeneratePublicKeyWithGuid(guid);

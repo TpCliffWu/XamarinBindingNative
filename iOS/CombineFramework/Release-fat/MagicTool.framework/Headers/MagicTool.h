@@ -2,7 +2,7 @@
 //  MagicTool.h
 //  MagicTool
 //
-//  Created by thinkpower on 2021/4/13.
+//  Created by thinkpower on 2021/11/22.
 //
 
 #import <Foundation/Foundation.h>

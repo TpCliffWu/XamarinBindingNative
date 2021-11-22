@@ -207,25 +207,10 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 @class NSString;
-@class NSNumber;
-@class UIImage;
 
 SWIFT_CLASS("_TtC9MagicTool9MagicTool")
 @interface MagicTool : NSObject
 - (NSString * _Nonnull)GeneratePublicKeyWithGuid:(NSString * _Nonnull)guid SWIFT_WARN_UNUSED_RESULT;
-- (NSString * _Nonnull)SignWithGuid:(NSString * _Nonnull)guid plainText:(NSString * _Nonnull)plainText SWIFT_WARN_UNUSED_RESULT;
-- (BOOL)VerifySignWithGuid:(NSString * _Nonnull)guid plainText:(NSString * _Nonnull)plainText signText:(NSString * _Nonnull)signText SWIFT_WARN_UNUSED_RESULT;
-- (UIImage * _Nullable)GenerateQRcodeWithRecipientID:(NSString * _Nonnull)recipientID dn:(NSString * _Nonnull)dn won:(NSString * _Nonnull)won SWIFT_WARN_UNUSED_RESULT;
-- (UIImage * _Nullable)GenerateQRcodeWithRecipientID:(NSString * _Nonnull)recipientID dn:(NSString * _Nonnull)dn won:(NSString * _Nonnull)won cvc:(NSString * _Nonnull)cvc SWIFT_WARN_UNUSED_RESULT;
-- (UIImage * _Nullable)GenerateQRcodeWithRecipientID:(NSString * _Nonnull)recipientID dn:(NSString * _Nonnull)dn won:(NSString * _Nonnull)won amount:(NSInteger)amount SWIFT_WARN_UNUSED_RESULT;
-- (UIImage * _Nullable)GenerateQRcodeWithRecipientID:(NSString * _Nonnull)recipientID dn:(NSString * _Nonnull)dn won:(NSString * _Nonnull)won cvc:(NSString * _Nonnull)cvc amount:(NSInteger)amount SWIFT_WARN_UNUSED_RESULT;
-- (UIImage * _Nullable)GenerateQRcodeWithQrcodeString:(NSString * _Nonnull)qrcodeString SWIFT_WARN_UNUSED_RESULT;
-- (void)SaveHMACKeyWithGuid:(NSString * _Nonnull)guid HMACKey:(NSString * _Nonnull)HMACKey;
-- (BOOL)SaveHMACKeyCheckWithGuid:(NSString * _Nonnull)guid SWIFT_WARN_UNUSED_RESULT;
-- (NSString * _Nonnull)SaveHMACKeyGetWithGuid:(NSString * _Nonnull)guid SWIFT_WARN_UNUSED_RESULT;
-- (NSString * _Nonnull)OfflineBarcodeWithGuid:(NSString * _Nonnull)guid cvc:(NSString * _Nonnull)cvc walletId:(NSString * _Nonnull)walletId SWIFT_WARN_UNUSED_RESULT;
-- (NSString * _Nonnull)NumberOTPWithGuid:(NSString * _Nonnull)guid cvc:(NSString * _Nonnull)cvc payableNumber:(NSString * _Nonnull)payableNumber amount:(NSString * _Nonnull)amount SWIFT_WARN_UNUSED_RESULT;
-- (NSString * _Nonnull)DecryptWithGuid:(NSString * _Nonnull)guid encryptData:(NSString * _Nonnull)encryptData publicKey:(NSString * _Nonnull)publicKey SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 

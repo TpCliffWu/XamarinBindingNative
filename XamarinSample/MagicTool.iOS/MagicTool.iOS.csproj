@@ -47,7 +47,7 @@
     <ObjcBindingCoreSource Include="Structs.cs" />
   </ItemGroup>
   <ItemGroup>
-    <NativeReference Include="..\..\iOS Framework\Release-fat\MagicTool.framework">
+    <NativeReference Include="..\..\iOS\CombineFramework\Release-fat\MagicTool.framework">
       <Kind>Framework</Kind>
       <SmartLink>False</SmartLink>
     </NativeReference>

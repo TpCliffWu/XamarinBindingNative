@@ -29,5 +29,15 @@ class MagicToolTests: XCTestCase {
             // Put the code you want to measure the time of here.
         }
     }
+    
+    func testGeneratePublicKey()throws{
+        
+        let mg = MagicTool.init();
+        let walletGuid = "123456789";
+        let pkey = mg.GeneratePublicKey(guid: walletGuid);
+        
+        XCTAssertNotNil(pkey,"error");
+
+    }
 
 }
