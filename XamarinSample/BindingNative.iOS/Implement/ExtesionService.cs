@@ -3,41 +3,27 @@ using Foundation;
 using MagicTooliOS;
 using Xamarin.Forms;
 
-
-[assembly: Dependency(typeof(ExtensionService))]
 namespace BindingNative.iOS
 {
-    public class ExtensionService : IExtensionService
+    public class ExtensionService
     {
-        public string FunctionGetString()
+        public MagicTool mg;
+
+        public ExtensionService()
         {
-
-            var magic = new MagicTool();
-
-
-            return magic.GetString;
+            mg = new MagicTool();
         }
 
-        public int SumArray(int[] intArray)
+
+        public string OfflineBarcode(string guid, string cvc, string walletId)
         {
-            var magic = new MagicTool();
-
-
-            var nsArray = new NSNumber[intArray.Length];
-            for(int i = 0; i <= intArray.Length - 1; i++)
-            {
-                nsArray[i] =(NSNumber) intArray[i];
-            }
-
-            var sum = (int)magic.MathIntAdditionWithIntArray(nsArray);
-
-            return sum;
+            return mg.OfflineBarcodeWithGuid(guid, cvc, walletId);
         }
 
-        public string ToBase64(string str)
+        public string GeneratePublicKey(string guid)
         {
-            var magic = new MagicTool();
-            return magic.StringToBase64WithStr(str);
+            return mg.GeneratePublicKeyWithGuid(guid);
         }
+
     }
 }

@@ -1,6 +1,0 @@
-version: "Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)"
-options: "67c3267f90ed2cfa73bd78e1429f3f99"
-build_time: [1618367260, 393927000]
-inputs:
-  "/Users/tpinfo/Documents/BindiOS/SwiftSample/SampleiOS/ContentView.swift": [9223372036, 854775807]
-  "/Users/tpinfo/Documents/BindiOS/SwiftSample/SampleiOS/SampleiOSApp.swift": [9223372036, 854775807]
