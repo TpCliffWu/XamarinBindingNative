@@ -103,6 +103,15 @@
 		18B5DE8B274B95050080221D /* Rabbit+Foundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B5DE32274B95050080221D /* Rabbit+Foundation.swift */; };
 		18B5DE8C274B95050080221D /* OFB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B5DE33274B95050080221D /* OFB.swift */; };
 		18B5DE8D274B95050080221D /* Array+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B5DE34274B95050080221D /* Array+Extension.swift */; };
+		18B5DE8F274BA0400080221D /* InstructionDataSign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B5DE8E274BA0400080221D /* InstructionDataSign.swift */; };
+		18B5DE94274BA0BA0080221D /* DecryptKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B5DE90274BA0BA0080221D /* DecryptKey.swift */; };
+		18B5DE95274BA0BA0080221D /* ConvertTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B5DE91274BA0BA0080221D /* ConvertTool.swift */; };
+		18B5DE96274BA0BA0080221D /* GenerateOtp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B5DE92274BA0BA0080221D /* GenerateOtp.swift */; };
+		18B5DE97274BA0BA0080221D /* ExtensionFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B5DE93274BA0BA0080221D /* ExtensionFunction.swift */; };
+		18B5DE9C274BA0FC0080221D /* SignValueVerify.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B5DE98274BA0FB0080221D /* SignValueVerify.swift */; };
+		18B5DE9D274BA0FC0080221D /* QRcodeGenerate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B5DE99274BA0FB0080221D /* QRcodeGenerate.swift */; };
+		18B5DE9E274BA0FC0080221D /* StoreModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B5DE9A274BA0FC0080221D /* StoreModel.swift */; };
+		18B5DE9F274BA0FC0080221D /* SaveHMACSKeyInLocal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B5DE9B274BA0FC0080221D /* SaveHMACSKeyInLocal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -213,6 +222,15 @@
 		18B5DE32274B95050080221D /* Rabbit+Foundation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Rabbit+Foundation.swift"; sourceTree = "<group>"; };
 		18B5DE33274B95050080221D /* OFB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OFB.swift; sourceTree = "<group>"; };
 		18B5DE34274B95050080221D /* Array+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Extension.swift"; sourceTree = "<group>"; };
+		18B5DE8E274BA0400080221D /* InstructionDataSign.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstructionDataSign.swift; sourceTree = "<group>"; };
+		18B5DE90274BA0BA0080221D /* DecryptKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DecryptKey.swift; sourceTree = "<group>"; };
+		18B5DE91274BA0BA0080221D /* ConvertTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConvertTool.swift; sourceTree = "<group>"; };
+		18B5DE92274BA0BA0080221D /* GenerateOtp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenerateOtp.swift; sourceTree = "<group>"; };
+		18B5DE93274BA0BA0080221D /* ExtensionFunction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtensionFunction.swift; sourceTree = "<group>"; };
+		18B5DE98274BA0FB0080221D /* SignValueVerify.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignValueVerify.swift; sourceTree = "<group>"; };
+		18B5DE99274BA0FB0080221D /* QRcodeGenerate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRcodeGenerate.swift; sourceTree = "<group>"; };
+		18B5DE9A274BA0FC0080221D /* StoreModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoreModel.swift; sourceTree = "<group>"; };
+		18B5DE9B274BA0FC0080221D /* SaveHMACSKeyInLocal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SaveHMACSKeyInLocal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -255,6 +273,15 @@
 		18B5DDBC274B93A10080221D /* MagicTool */ = {
 			isa = PBXGroup;
 			children = (
+				18B5DE99274BA0FB0080221D /* QRcodeGenerate.swift */,
+				18B5DE9B274BA0FC0080221D /* SaveHMACSKeyInLocal.swift */,
+				18B5DE98274BA0FB0080221D /* SignValueVerify.swift */,
+				18B5DE9A274BA0FC0080221D /* StoreModel.swift */,
+				18B5DE91274BA0BA0080221D /* ConvertTool.swift */,
+				18B5DE90274BA0BA0080221D /* DecryptKey.swift */,
+				18B5DE93274BA0BA0080221D /* ExtensionFunction.swift */,
+				18B5DE92274BA0BA0080221D /* GenerateOtp.swift */,
+				18B5DE8E274BA0400080221D /* InstructionDataSign.swift */,
 				18B5DDDA274B95050080221D /* BlueECC */,
 				18B5DDE7274B95050080221D /* CryptoSwift */,
 				18B5DDD8274B94DF0080221D /* LocalStorage.swift */,
@@ -496,13 +523,16 @@
 				18B5DE63274B95050080221D /* BatchedCollection.swift in Sources */,
 				18B5DE4C274B95050080221D /* ISO10126Padding.swift in Sources */,
 				18B5DE6B274B95050080221D /* Operators.swift in Sources */,
+				18B5DE9C274BA0FC0080221D /* SignValueVerify.swift in Sources */,
 				18B5DE8D274B95050080221D /* Array+Extension.swift in Sources */,
 				18B5DE66274B95050080221D /* SecureBytes.swift in Sources */,
 				18B5DE64274B95050080221D /* Blowfish+Foundation.swift in Sources */,
 				18B5DE38274B95050080221D /* ECSignable.swift in Sources */,
 				18B5DDD5274B945D0080221D /* PublicKeyGenerator.swift in Sources */,
+				18B5DE9E274BA0FC0080221D /* StoreModel.swift in Sources */,
 				18B5DE68274B95050080221D /* String+Extension.swift in Sources */,
 				18B5DE8A274B95050080221D /* AES+Foundation.swift in Sources */,
+				18B5DE94274BA0BA0080221D /* DecryptKey.swift in Sources */,
 				18B5DE5C274B95050080221D /* Scrypt.swift in Sources */,
 				18B5DE3A274B95050080221D /* ECError.swift in Sources */,
 				18B5DE49274B95050080221D /* HKDF.swift in Sources */,
@@ -521,6 +551,7 @@
 				18B5DE65274B95050080221D /* ISO78164Padding.swift in Sources */,
 				18B5DE4A274B95050080221D /* PKCS7Padding.swift in Sources */,
 				18B5DE87274B95050080221D /* Array+Foundation.swift in Sources */,
+				18B5DE97274BA0BA0080221D /* ExtensionFunction.swift in Sources */,
 				18B5DE6C274B95050080221D /* Utils+Foundation.swift in Sources */,
 				18B5DE56274B95050080221D /* Collection+Extension.swift in Sources */,
 				18B5DE6E274B95050080221D /* BlockMode.swift in Sources */,
@@ -529,12 +560,14 @@
 				18B5DE46274B95050080221D /* OCB.swift in Sources */,
 				18B5DE73274B95050080221D /* BlockCipher.swift in Sources */,
 				18B5DE88274B95050080221D /* PBKDF1.swift in Sources */,
+				18B5DE95274BA0BA0080221D /* ConvertTool.swift in Sources */,
 				18B5DE76274B95050080221D /* PBKDF2.swift in Sources */,
 				18B5DE83274B95050080221D /* Checksum.swift in Sources */,
 				18B5DE3C274B95050080221D /* ECDecryptable.swift in Sources */,
 				18B5DE6F274B95050080221D /* Rabbit.swift in Sources */,
 				18B5DE7E274B95050080221D /* ChaCha20+Foundation.swift in Sources */,
 				18B5DE45274B95050080221D /* BlockEncryptor.swift in Sources */,
+				18B5DE96274BA0BA0080221D /* GenerateOtp.swift in Sources */,
 				18B5DE78274B95050080221D /* BlockDecryptor.swift in Sources */,
 				18B5DE4E274B95050080221D /* CBCMAC.swift in Sources */,
 				18B5DE71274B95050080221D /* SHA1.swift in Sources */,
@@ -570,13 +603,16 @@
 				18B5DE8C274B95050080221D /* OFB.swift in Sources */,
 				18B5DE50274B95050080221D /* AES.Cryptors.swift in Sources */,
 				18B5DE35274B95050080221D /* EllipticCurve.swift in Sources */,
+				18B5DE9D274BA0FC0080221D /* QRcodeGenerate.swift in Sources */,
 				18B5DE40274B95050080221D /* ECEncryptable.swift in Sources */,
 				18B5DE7C274B95050080221D /* Data+Extension.swift in Sources */,
 				18B5DE47274B95050080221D /* UInt64+Extension.swift in Sources */,
 				18B5DE5B274B95050080221D /* CCM.swift in Sources */,
 				18B5DE62274B95050080221D /* CompactMap.swift in Sources */,
 				18B5DE43274B95050080221D /* BlockModeOptions.swift in Sources */,
+				18B5DE8F274BA0400080221D /* InstructionDataSign.swift in Sources */,
 				18B5DE89274B95050080221D /* ChaCha20.swift in Sources */,
+				18B5DE9F274BA0FC0080221D /* SaveHMACSKeyInLocal.swift in Sources */,
 				18B5DE80274B95050080221D /* CTR.swift in Sources */,
 				18B5DE53274B95050080221D /* CBC.swift in Sources */,
 				18B5DE48274B95050080221D /* Cryptors.swift in Sources */,

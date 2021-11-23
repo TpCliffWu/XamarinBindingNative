@@ -207,10 +207,13 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 @class NSString;
+@class NSNumber;
 
 SWIFT_CLASS("_TtC9MagicTool9MagicTool")
 @interface MagicTool : NSObject
 - (NSString * _Nonnull)GeneratePublicKeyWithGuid:(NSString * _Nonnull)guid SWIFT_WARN_UNUSED_RESULT;
+- (NSString * _Nonnull)SignWithGuid:(NSString * _Nonnull)guid plainText:(NSString * _Nonnull)plainText SWIFT_WARN_UNUSED_RESULT;
+- (BOOL)VerifySignWithGuid:(NSString * _Nonnull)guid plainText:(NSString * _Nonnull)plainText signText:(NSString * _Nonnull)signText SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 

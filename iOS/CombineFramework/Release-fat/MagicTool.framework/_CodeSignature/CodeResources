@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/MagicTool-Swift.h</key>
 		<data>
-		mLwSeu8T9akYxsS+4jOot7B/dGg=
+		HWX/Egvk0Ig3Mch5QeXDzhXHzZA=
 		</data>
 		<key>Headers/MagicTool.h</key>
 		<data>
@@ -18,11 +18,11 @@
 		</data>
 		<key>Modules/MagicTool.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		xaHDQxhfnIrTRhS4HMzhhWLCnvc=
+		qH1oYXaCMRPvEbkS8OfyNjne8Ug=
 		</data>
 		<key>Modules/MagicTool.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<data>
-		xaHDQxhfnIrTRhS4HMzhhWLCnvc=
+		qH1oYXaCMRPvEbkS8OfyNjne8Ug=
 		</data>
 		<key>Modules/MagicTool.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>Modules/MagicTool.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		CeFW0NIWjV6EydDgK1X9HklLfmY=
+		fD0jCUa9uLAcIqbfLwK9tCc2OSU=
 		</data>
 		<key>Modules/MagicTool.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Modules/MagicTool.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		CeFW0NIWjV6EydDgK1X9HklLfmY=
+		fD0jCUa9uLAcIqbfLwK9tCc2OSU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -51,7 +51,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			DlWrT0qh0odZnBqGVHwdTlYcxd4CgbNiw5EflzYlOPo=
+			CRP20sGNoySkHonkvRl/D22VvpN7mJcqpbMVWxxSmJc=
 			</data>
 		</dict>
 		<key>Headers/MagicTool.h</key>
@@ -65,14 +65,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			JoY/IeIhEjDjOgMY1bsB5Qh54RmuIc3Nkqa2j86tH4s=
+			m4oL11fKBF5SGie+Qkgby6GpTXnutZWDMIgt3eam00M=
 			</data>
 		</dict>
 		<key>Modules/MagicTool.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			JoY/IeIhEjDjOgMY1bsB5Qh54RmuIc3Nkqa2j86tH4s=
+			m4oL11fKBF5SGie+Qkgby6GpTXnutZWDMIgt3eam00M=
 			</data>
 		</dict>
 		<key>Modules/MagicTool.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -86,7 +86,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			otm5fjKOy30a7yLOpoC1Laofef5Hq4gh4VeaLNoUvhA=
+			E17GIw73QVJFRqy/qqXTNWWkqFpKsXJ68vFKoF+LWNw=
 			</data>
 		</dict>
 		<key>Modules/MagicTool.swiftmodule/arm64.swiftdoc</key>
@@ -100,7 +100,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			otm5fjKOy30a7yLOpoC1Laofef5Hq4gh4VeaLNoUvhA=
+			E17GIw73QVJFRqy/qqXTNWWkqFpKsXJ68vFKoF+LWNw=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

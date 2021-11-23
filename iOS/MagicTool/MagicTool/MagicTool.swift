@@ -16,4 +16,20 @@ public class MagicTool:NSObject
         let pkGen = PublicKeyGenerator.init();
         return  pkGen.GetPub(guid: guid);
     }
+    
+    // 2.簽驗章 簽署憑證
+    @objc
+    public func Sign(guid:String,plainText:String)->String
+    {
+        let signData = InstructionDataSign.init();
+        return signData.Sign(guid: guid, plainText: plainText);
+    }
+    
+    // 3.簽驗章 回傳簽驗章是否正確
+     @objc
+     public func VerifySign(guid:String,plainText:String,signText:String) -> Bool{
+         
+         let signVerify = SignValueVerify.init();
+         return signVerify.Verify(guid: guid, plainText: plainText, signText: signText)
+     }
 }
